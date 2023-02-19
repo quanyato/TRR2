@@ -159,7 +159,7 @@ int main()
     cout << "0. Thoat" << endl;
     while (not exitProgram)
     {
-        cout << "Nhap lua chon cua ban (Number): ";
+        cout << "-- Nhap lua chon cua ban (Number): ";
         cin >> choice;
         switch (choice)
         {
@@ -178,7 +178,7 @@ int main()
             break;
 
         case 3:
-            cout << numOfConnectedGraph() << endl;
+            cout << numOfConnectedGraph() << " thanh phan lien thong" << endl;
             dfsArray.clear();
             clearVisitedArray();
             break;
